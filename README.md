@@ -49,7 +49,7 @@ CNNベースの手法による画像分類のサンプルコード
 
 ### 環境設定
 
-[先述の環境](https://github.com/cu-milab/ra-takase-2020/tree/master/Code/CNN_sample#%E5%8B%95%E4%BD%9C%E7%92%B0%E5%A2%83)を整えてください．
+[先述の環境](https://github.com/SyunkiTakase/CNN_Classification_Sample?tab=readme-ov-file#%E5%8B%95%E4%BD%9C%E7%92%B0%E5%A2%83)を整えてください．
 
 ### 学習
 ハイパーパラメータは適宜調整してください．
