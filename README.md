@@ -5,9 +5,6 @@ CNNベースの手法による画像分類のサンプルコード
 <details>
 <summary>ライブラリのバージョン</summary>
  
-* Ubuntu 18.04
-* Geforce RTX 4090
-* driver 530.30.02
 * cuda 12.1
 * python 3.6.9
 * torch 1.8.1+cu111
@@ -56,16 +53,20 @@ CNNベースの手法による画像分類のサンプルコード
 
 <details>
 <summary>VGG，ResNet，EfficientNet，ConvNeXtのファインチューニング(CIFAR-10)</summary>
- 
+
+VGGの学習 
 ```
 python3 vgg_train.py --epoch 10 --batch_size 128 --amp --dataset cifar10
 ```
+ResNetの学習
 ```
 python3 resnet_train.py --epoch 10 --batch_size 128 --amp --dataset cifar10
 ```
+EfficientNetの学習
 ```
 python3 efficientnet_train.py --epoch 10 --batch_size 128 --amp --dataset cifar10
 ```
+ConvNeXtの学習
 ```
 python3 convnext_train.py --epoch 10 --batch_size 128 --amp --dataset cifar10
 ```
@@ -74,15 +75,19 @@ python3 convnext_train.py --epoch 10 --batch_size 128 --amp --dataset cifar10
 <details>
 <summary>VGG，ResNet，EfficientNet，ConvNeXtのファインチューニング(CIFAR-100)</summary>
  
+VGGの学習 
 ```
 python3 vgg_train.py --epoch 10 --batch_size 128 --amp --dataset cifar100
 ```
+ResNetの学習
 ```
 python3 resnet_train.py --epoch 10 --batch_size 128 --amp --dataset cifar100
 ```
+EfficientNetの学習
 ```
 python3 efficientnet_train.py --epoch 10 --batch_size 128 --amp --dataset cifar100
 ```
+ConvNeXtの学習
 ```
 python3 convnext_train.py --epoch 10 --batch_size 128 --amp --dataset cifar100
 ```
